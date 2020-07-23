@@ -1,0 +1,7 @@
+app:
+  screenshots: Screenshots
+  description: Description
+  featured: Featured in
+
+footer:
+  copyright: Made with ❤️ in Europe 🇪🇺 by <a href="https://www.sandoche.com" target="_blank">Sandoche</a>

@@ -1,0 +1,66 @@
+### Welcome to Jekyll Webpack Boilerplate
+#
+# This config file contains the config of your webpages
+# You may also want to update /config/webpack.pwa.js in case you want to generate a Progressive Web App
+
+title: Mobile App Website Template
+email: contact@sandoche.com
+description: Free to use static website template to showcase your mobile app
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://mobileapp.learn.uno" # the base hostname & protocol for your site, e.g. http://example.com
+theme_color: '#efeeff'
+twitter_username: sandochee
+github_username:  sandoche
+author: Sandoche Adittane
+logo: assets/images/large-logo.png
+twitter:
+  username: sandochee
+social:
+  name: Sandoche Adittane
+  links:
+    - https://twitter.com/sandochee
+    - https://www.facebook.com/sandoche
+    - https://www.linkedin.com/in/sandoche
+    - https://plus.google.com/+SandocheADITTANE
+    - https://github.com/sandoche
+
+languages: ["en"]
+ampdir: amp
+
+### Google webmaster tools, Google Analytics, Doorbell and Cookie consent uncomment and put the API key
+#webmaster_verifications:
+#  google: verification_code
+#google_analytics: UA-XXXXXXXXX-X
+#doorbell:
+#  id: doorbell_id
+#  appKey: doorbell_appKey
+
+#cookie_consent: true
+
+### Build settings
+markdown: kramdown
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - octopress-minify-html
+  - amp-jekyll
+
+### Exclude from processing.
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - _src
+  - _images
+  - LICENSE
+  - package.json
+  - README.md
+  - webpack.config.js
+  - yarn-error.log
+  - yarn.lock
+  - config
+  - optimization-fix
+  - optimization-fix-this-file-is-ignored.js
+  - icon.png

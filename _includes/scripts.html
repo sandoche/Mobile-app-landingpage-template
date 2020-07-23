@@ -1,0 +1,11 @@
+{% if jekyll.environment == 'pwa' %}
+{% include service-worker.html %}
+{% endif %}
+
+{% if site.doorbell %}
+{% include doorbell.html %}
+{% endif %}
+
+{% if site.cookie_consent == true %}
+{% include cookie-consent.html %}
+{% endif %}
