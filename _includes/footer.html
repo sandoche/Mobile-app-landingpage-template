@@ -3,9 +3,9 @@
     <div class="footer__container">
       <p class="footer__love">{{ site.data.strings.footer.copyright }}</p>
       <ul class="footer__links">
-        <li class="footer__link"><a href="https://learn.uno" target="_blank">Learning Lab</a></li>
-        <li class="footer__link"><a href="https://medium.com/learning-lab" target="_blank">Medium</a></li>
-        <li class="footer__link"><a href="https://paypal.me/kanbanote" target="_blank">Donate</a></li>
+        {% for link in site.data.strings.footer.links %}
+        <li class="footer__link"><a href="{{ link.url }}" target="_blank">{{ link.title }}</a></li>
+        {% endor %}
       </ul>
     </div>
   </div>

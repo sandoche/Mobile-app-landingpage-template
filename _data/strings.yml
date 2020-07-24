@@ -5,3 +5,8 @@ app:
 
 footer:
   copyright: Made with ❤️ in Europe 🇪🇺 by <a href="https://www.sandoche.com" target="_blank">Sandoche</a>
+  links:
+    - title: Github
+      url: https://github.com/sandoche/Mobile-app-website-template
+    - title: Donate
+      url: https://paypal.me/kanbanote
