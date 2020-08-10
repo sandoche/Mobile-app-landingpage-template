@@ -9,7 +9,7 @@
   </a>
 </p>
 
-📱 Free to use static website template to showcase your mobile app
+📱 Free to use static generated website template for your mobile app
 
 ## 💡 Features
 Mobile App Template comes with pre-installed features and options:
