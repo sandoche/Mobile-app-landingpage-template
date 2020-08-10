@@ -8,5 +8,9 @@ footer:
   links:
     - title: Github
       url: https://github.com/sandoche/Mobile-app-website-template
+      target: _blank
     - title: Donate
       url: https://paypal.me/kanbanote
+      target: _blank
+    - title: Privacy
+      url: /privacy

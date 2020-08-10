@@ -4,7 +4,7 @@
       <p class="footer__love">{{ site.data.strings.footer.copyright }}</p>
       <ul class="footer__links">
         {% for link in site.data.strings.footer.links %}
-        <li class="footer__link"><a href="{{ link.url }}" target="_blank">{{ link.title }}</a></li>
+        <li class="footer__link"><a href="{{ link.url }}" target="{{ link.target }}">{{ link.title }}</a></li>
         {% endfor %}
       </ul>
     </div>
