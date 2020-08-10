@@ -1,11 +1,10 @@
 <p align="center">
-  <img src="/_images/icon.png" width="150" style="border-radius: 16px;">
+  <img src="/_images/icon.png" width="150">
 </p>
 <h1 align="center">Mobile App Template</h1>
 <p>
-  <img src="https://img.shields.io/badge/version-1.0.0-blue.svg?cacheSeconds=2592000" />
   <a href="/LICENSE">
-    ![GitHub](https://img.shields.io/github/license/mashape/apistatus.svg)
+    <img src="https://img.shields.io/github/license/mashape/apistatus.svg" alt="MIT">
   </a>
 
   <a href="https://twitter.com/sandochee">
