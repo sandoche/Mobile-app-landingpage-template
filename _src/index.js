@@ -2,13 +2,15 @@
 import './index.scss';
 
 import Tobi from 'rqrauhvmra__tobi'
-import FloatingPrompt from 'producthunt-floating-prompt'
-
 const tobi = new Tobi()
 
-if (window.location.search.substr(1) === 'contact') {
-  const UserVoice = window.UserVoice||[];
-  UserVoice.push(['show']);
-}
+// Remove the two following lines to remove the product hunt floating prompt
+import FloatingPrompt from 'producthunt-floating-prompt'
+FloatingPrompt({ name: 'Mobile App Name', url: 'https://telegra.ph/Replace-this-link-07-23', bottom: '64px' })
 
-FloatingPrompt({name:'Mobile App Name', url:'https://telegra.ph/Replace-this-link-07-23', bottom: '64px'})
+// Remove the two following lines to remove the darkmode js
+import Darkmode from 'darkmode-js'
+function addDarkmodeWidget() {
+  new Darkmode().showWidget()
+}
+window.addEventListener('load', addDarkmodeWidget)
