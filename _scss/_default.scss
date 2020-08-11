@@ -376,3 +376,7 @@ h1, h2 {
 .page {
   @include container($container-padding);
 }
+
+.darkmode-toggle {
+  z-index: 500;
+}

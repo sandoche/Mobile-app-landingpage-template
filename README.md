@@ -25,6 +25,7 @@ Mobile App Template comes with pre-installed features and options:
 - Cookie Consent
 - Automatic dark theme
 - Doorbell widget
+- Github forking banner
 
 ## ✨ Demo
 Check out websites using the Mobile App Template:
@@ -36,7 +37,7 @@ Check out websites using the Mobile App Template:
 
 ## 📖 How to use
 1. Fork this project
-2. Edit `_config.yml`, feel free to uncomment what you need (google analtytics for example)
+2. Edit `_config.yml`, feel free to commut/uncomment what you need (google analtytics, or github for example)
 3. Edit `_data/app.yml` with your app data
 4. Update the text from `_data/strings.yml`, you can customize there the footer's links
 5. Edit icons and screenshots inside the `_images` folder and `icon.png` in the root

@@ -27,6 +27,8 @@ social:
 languages: ["en"]
 ampdir: amp
 
+github: https://github.com/sandoche/Mobile-app-website-template
+
 ### Google webmaster tools, Google Analytics, Doorbell and Cookie consent uncomment and put the API key
 #webmaster_verifications:
 #  google: verification_code
