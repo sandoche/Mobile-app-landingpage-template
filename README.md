@@ -12,9 +12,9 @@
 📱 Free to use static generated landing page template for your mobile app
 
 ## 💡 Features
-Mobile App Template comes with pre-installed features and options:
-- App icon
-- Unlimited app screenshots
+Mobile App Landing Page Template comes with pre-installed features and options:
+- Display app icon
+- Show unlimited app screenshots
 - Link to Google Play
 - Link to the AppStore
 - Link to the Web App
@@ -29,7 +29,7 @@ Mobile App Template comes with pre-installed features and options:
 
 ## ✨ Demo
 Check out websites using the Mobile App Template:
-- https://mobileapptemplate.learn.uno
+- https://mobileapplandingpage.learn.uno
 - https://gitnews.learn.uno
 - https://textblast.learn.uno
 - https://infinideas.learn.uno

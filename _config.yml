@@ -5,9 +5,9 @@
 
 title: Mobile App Website Template
 email: contact@sandoche.com
-description: Free to use static website template to showcase your mobile app
+description: Free to use static landing page template to showcase your mobile app
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://mobileapp.learn.uno" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://mobileapplandingpage.learn.uno" # the base hostname & protocol for your site, e.g. http://example.com
 theme_color: '#efeeff'
 twitter_username: sandochee
 github_username:  sandoche
