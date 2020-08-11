@@ -1,9 +1,9 @@
 {
-  "name": "mobile-app-website-template",
+  "name": "mobile-app-landingpage-template",
   "version": "1.0.0",
   "description": "Free to use static website template to showcase your mobile app",
   "main": "src/index.js",
-  "repository": "git@github.com:sandoche/Mobile-app-website-template.git",
+  "repository": "git@github.com:sandoche/Mobile-app-landingpage-template.git",
   "author": "Sandoche Adittane <sandoche@gmail.com>",
   "license": "MIT",
   "scripts": {
