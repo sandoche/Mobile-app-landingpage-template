@@ -8,7 +8,7 @@ const tobi = new Tobi()
 import FloatingPrompt from 'producthunt-floating-prompt'
 FloatingPrompt({ name: 'Mobile App Name', url: 'https://telegra.ph/Replace-this-link-07-23', bottom: '64px' })
 
-// Remove the two following lines to remove the darkmode js
+// Remove the following lines to remove the darkmode js
 import Darkmode from 'darkmode-js'
 function addDarkmodeWidget() {
   new Darkmode().showWidget()
