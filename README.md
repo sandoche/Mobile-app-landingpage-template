@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="/_images/icon.png" width="150">
+  <img src="/docs/animation/animation.gif" width="150">
 </p>
 <h1 align="center">Mobile App Landing Page Template</h1>
 <p>
