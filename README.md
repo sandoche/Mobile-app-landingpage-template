@@ -29,7 +29,6 @@ Mobile App Landing Page Template comes with pre-installed features and options:
 
 ## ✨ Demo
 Check out websites using the Mobile App Template:
-- https://mobileapplandingpage.learn.uno
 - https://gitnews.learn.uno
 - https://textblast.learn.uno
 - https://infinideas.learn.uno
