@@ -3,7 +3,7 @@
 # This config file contains the config of your webpages
 # You may also want to update /config/webpack.pwa.js in case you want to generate a Progressive Web App
 
-title: Mobile App Website Template
+title: Mobile App Landing Page Template
 email: contact@sandoche.com
 description: Free to use static landing page template to showcase your mobile app
 baseurl: "" # the subpath of your site, e.g. /blog
