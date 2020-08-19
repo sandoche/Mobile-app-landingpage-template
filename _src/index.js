@@ -6,7 +6,7 @@ const tobi = new Tobi()
 
 // Remove the two following lines to remove the product hunt floating prompt
 import FloatingPrompt from 'producthunt-floating-prompt'
-FloatingPrompt({ name: 'Mobile App Name', url: 'https://telegra.ph/Replace-this-link-07-23', bottom: '64px' })
+FloatingPrompt({ name: 'Mobile App Landing Page', url: 'https://www.producthunt.com/posts/mobile-app-landing-page', bottom: '96px' })
 
 // Remove the following lines to remove the darkmode js
 import Darkmode from 'darkmode-js'
