@@ -208,8 +208,9 @@ h1, h2 {
 
   &__screenshots-list {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 200px 200px 200px 200px 200px 200px;
     grid-column-gap: 20px;
+    padding: 30px 0;
 
     @media (max-width: 768px) {
       padding: 32px;
@@ -232,9 +233,7 @@ h1, h2 {
   }
 
   &__screenshots-wrapper {
-    @media (max-width: 768px) {
-      overflow-y: auto;
-    }
+    overflow-y: auto;
   }
 
   &__buttons {
