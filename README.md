@@ -38,7 +38,7 @@ Check out websites using the Mobile App Template:
 
 ## 📖 How to use
 
-## The normal way
+### The normal way
 
 1. Fork this project
 2. Edit `_config.yml`, feel free to commut/uncomment what you need (google analtytics, or github for example)
@@ -48,7 +48,7 @@ Check out websites using the Mobile App Template:
 6. Edit `_src/index.js` to update the product hunt modal (or to remove it) and to remove the darkmode plugin if you don't want it
 7. Deploy (on netlify, gitpages or surge, they are all free)
 
-## The no-code way
+### The no-code way
 
 1. Go to https://t3mpl.n4no.com/editor/#manifest=../templates/mobile-app-landing-page/template.yaml
 2. Edit the settings on the left part
