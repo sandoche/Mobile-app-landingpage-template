@@ -37,6 +37,9 @@ Check out websites using the Mobile App Template:
 - https://www.therandominion.com/
 
 ## 📖 How to use
+
+## The normal way
+
 1. Fork this project
 2. Edit `_config.yml`, feel free to commut/uncomment what you need (google analtytics, or github for example)
 3. Edit `_data/app.yml` with your app data
@@ -44,6 +47,13 @@ Check out websites using the Mobile App Template:
 5. Edit icons and screenshots inside the `_images` folder and `icon.png` in the root
 6. Edit `_src/index.js` to update the product hunt modal (or to remove it) and to remove the darkmode plugin if you don't want it
 7. Deploy (on netlify, gitpages or surge, they are all free)
+
+## The no-code way
+
+1. Go to https://t3mpl.n4no.com/editor/#manifest=../templates/mobile-app-landing-page/template.yaml
+2. Edit the settings on the left part
+3. Click on the `Publish` button then `Save Webpage as .zip`
+4. Unzip and upload the folder to your server (you can drag'n'drop it in Netlify to host it there for free)
 
 ## ⚙️ How to run
 
