@@ -45,7 +45,7 @@
     "style-loader": "^0.18.2",
     "sw-precache": "^5.2.0",
     "webpack": "^3.4.1",
-    "webpack-dev-server": "^2.6.1",
+    "webpack-dev-server": "^3.1.11",
     "webpack-merge": "^4.1.0",
     "webpack-plugin-critical": "^1.0.0",
     "webpack-pwa-manifest": "^3.1.6"
