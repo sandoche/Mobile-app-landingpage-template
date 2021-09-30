@@ -1,5 +1,5 @@
 /* eslint-disable import/no-extraneous-dependencies */
-const Merge = require('webpack-merge');
+const { merge: Merge } = require('webpack-merge');
 const ProdConfig = require('./webpack.prod.js');
 const path = require('path');
 const WebpackPwaManifest = require('webpack-pwa-manifest');

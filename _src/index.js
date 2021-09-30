@@ -1,7 +1,7 @@
 // CSS and SASS files
 import './index.scss';
 
-import Tobi from 'rqrauhvmra__tobi'
+import { default as Tobi } from '@midzer/tobii'
 const tobi = new Tobi()
 
 // Remove the two following lines to remove the product hunt floating prompt

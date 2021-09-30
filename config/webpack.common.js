@@ -1,7 +1,7 @@
 /* eslint-disable import/no-extraneous-dependencies */
 const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
-const ExtractTextPlugin = require('extract-text-webpack-plugin');
+const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const CopyWebpackPlugin = require('copy-webpack-plugin');
 const FaviconsWebpackPlugin = require('favicons-webpack-plugin');
 
@@ -17,11 +17,12 @@ module.exports = {
       template: './_src/template/default.html',
       filename: '../_layouts/default.html',
     }),
-    new ExtractTextPlugin('[name].css'),
-    new CopyWebpackPlugin([{
-      from: path.resolve('_images'),
-      to: 'images/',
-    }]),
+    new MiniCssExtractPlugin(),
+    new CopyWebpackPlugin({
+      patterns:[
+        { from: path.resolve('_images'), to: 'images/', }
+      ]
+    }),
   ],
   module: {
     rules: [
@@ -31,27 +32,25 @@ module.exports = {
         use: {
           loader: 'babel-loader',
           options: {
-            presets: ['env'],
+            presets: ['@babel/preset-env'],
           },
         },
       },
       {
         test: /\.(css|scss)$/,
-        use: ExtractTextPlugin.extract({
-          fallback: 'style-loader',
-          use: [
-            { loader: 'css-loader', options: { importLoaders: 1 } },
-            {
-              loader: 'postcss-loader',
-              options: {
-                config: {
-                  path: 'config/postcss.config.js',
-                },
-              },
+        use: [
+          MiniCssExtractPlugin.loader,
+          { loader: 'css-loader', options: { importLoaders: 1, url: false } },
+          {
+            loader: 'postcss-loader',
+            options: {
+              postcssOptions: {
+                config: 'config/postcss.config.js',
+              }
             },
-            { loader: 'sass-loader' },
-          ],
-        }),
+          },
+          { loader: 'sass-loader' },
+        ],
       },
       {
         test: /\.(png|svg|jpg|gif)$/,
