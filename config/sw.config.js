@@ -8,7 +8,7 @@ module.exports = {
     'assets/**.js',
   ],
   modifyURLPrefix: {
-    '_site/': ''
+    '_site/': '',
   },
   runtimeCaching: [{
     urlPattern: '/',
