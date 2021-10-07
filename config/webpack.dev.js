@@ -32,11 +32,11 @@ module.exports = Merge(CommonConfig, {
       directory: path.resolve('_site'),
     },
     hot: true,
-  },
-  client: {
-    overlay: {
-      errors: true,
-      warnings: false,
+    client: {
+      overlay: {
+        errors: true,
+        warnings: false,
+      },
     },
   },
 });
