@@ -33,4 +33,10 @@ module.exports = Merge(CommonConfig, {
     },
     hot: true,
   },
+  client: {
+    overlay: {
+      errors: true,
+      warnings: false,
+    },
+  },
 });
