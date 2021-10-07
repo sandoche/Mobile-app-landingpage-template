@@ -1,0 +1,11 @@
+{
+  "name": "Mobile App Name",
+  "short_name": "Mobile App Name",
+  "orientation": "portrait",
+  "display": "standalone",
+  "start_url": "/",
+  "description": "A super tagline for the mobile app",
+  "scope": "/",
+  "theme_color": "#efeeff",
+  "background_color": "#efeeff"
+}

@@ -2,27 +2,5 @@
 const { merge: Merge } = require('webpack-merge');
 const ProdConfig = require('./webpack.prod.js');
 const path = require('path');
-const WebpackPwaManifest = require('webpack-pwa-manifest');
 
-module.exports = Merge(ProdConfig, {
-  plugins: [
-    new WebpackPwaManifest({
-      filename: 'assets/manifest.json',
-      name: 'Mobile App Name',
-      short_name: 'Mobile App Name',
-      description: 'A super tagline for the mobile app',
-      orientation: 'portrait',
-      display: 'standalone',
-      start_url: '/',
-      scope: '/',
-      theme_color: '#efeeff',
-      background_color: '#efeeff',
-      icons: [
-        {
-          src: path.resolve('icon.png'),
-          sizes: [96, 128, 192, 256, 384, 512],
-        },
-      ],
-    }),
-  ],
-});
+module.exports = Merge(ProdConfig, {});
