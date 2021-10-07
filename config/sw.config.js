@@ -1,15 +1,18 @@
 module.exports = {
-  staticFileGlobs: [
-    '_site/assets/**.css',
-    '_site/**.html',
-	'_site/**/**.html',
-    '_site/assets/images/**.*',
-    '_site/assets/**.js',
+  swDest: '_site/service-worker.js',
+  globPatterns: [
+    'assets/**.css',
+    '**.html',
+    '**/**.html',
+    'assets/images/**.*',
+    'assets/**.js',
   ],
-  stripPrefix: '_site/',
+  modifyURLPrefix: {
+    '_site/': ''
+  },
   runtimeCaching: [{
     urlPattern: '/',
-    handler: 'networkFirst',
+    handler: 'NetworkFirst',
   }],
-  root: '_site',
+  globDirectory: '_site',
 };
