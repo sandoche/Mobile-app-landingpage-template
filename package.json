@@ -37,7 +37,7 @@
     "http-server": "^13.0.2",
     "imagemin-webpack-plugin": "^2.1.5",
     "mini-css-extract-plugin": "^2.3.0",
-    "node-sass": "^6.0.1",
+    "node-sass": "^7.0.0",
     "postcss-import": "^14.0.2",
     "postcss-loader": "^6.1.1",
     "postcss-scss": "^4.0.1",
