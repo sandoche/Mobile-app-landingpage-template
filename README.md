@@ -35,6 +35,7 @@ Check out websites using the Mobile App Template:
 - https://textblast.learn.uno
 - https://infinideas.learn.uno
 - https://www.therandominion.com/
+- https://croma.app/
 
 ## 📖 How to use
 
