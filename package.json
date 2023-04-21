@@ -30,7 +30,7 @@
     "eslint-config-airbnb-base": "^14.2.1",
     "eslint-loader": "^4.0.2",
     "eslint-plugin-import": "^2.7.0",
-    "favicons": "^6.2.2",
+    "favicons": "^7.1.2",
     "favicons-webpack-plugin": "^5.0.2",
     "file-loader": "^6.2.0",
     "html-webpack-plugin": "^5.3.2",
