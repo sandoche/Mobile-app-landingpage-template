@@ -8,11 +8,15 @@ source "https://rubygems.org"
 #
 # This will help ensure the proper Jekyll version is running.
 # Happy Jekylling!
-gem "jekyll", "4.2.1"
+# gem "jekyll", "4.2.1"
+
+require 'json'
+require 'net/http'
+versions = JSON.parse(Net::HTTP.get(URI('https://pages.github.com/versions.json')))
 
 # If you want to use GitHub Pages, remove the "gem "jekyll"" above and
 # uncomment the line below. To upgrade, run `bundle update github-pages`.
-# gem "github-pages", group: :jekyll_plugins
+gem "github-pages", versions['github-pages'], group: :jekyll_plugins
 
 # If you have any plugins, put them here!
 group :jekyll_plugins do
