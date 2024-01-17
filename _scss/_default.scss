@@ -168,7 +168,7 @@ h1, h2 {
 
   &__logo-wrapper {
     display: inline-block;
-    background-image: url('assets/images/ios-mask-border-128.svg');
+    background-image: url('/assets/images/ios-mask-border-128.svg');
     background-size: contain;
     max-width: 250px;
     max-height: 250px;
@@ -187,7 +187,7 @@ h1, h2 {
 
   &__logo {
     border-radius: 22.5%;
-    mask-image: url('assets/images/ios-mask.svg');
+    mask-image: url('/assets/images/ios-mask.svg');
     mask-size: cover;
     width: 100%;
     height: auto;
