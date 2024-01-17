@@ -13,6 +13,7 @@ module.exports = {
     new FaviconsWebpackPlugin({
       logo: './icon.png',
       manifest: './config/manifest.json',
+      publicPath: './'
     }),
     new HtmlWebpackPlugin({
       template: './_src/template/default.html',

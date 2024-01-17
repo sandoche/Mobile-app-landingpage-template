@@ -9,7 +9,7 @@ module.exports = Merge(CommonConfig, {
   output: {
     filename: '[name].bundle.js',
     path: path.resolve('assets'),
-    publicPath: '/assets/',
+    publicPath: './assets/',
   },
   devtool: 'inline-source-map',
   plugins: [
