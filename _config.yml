@@ -12,7 +12,7 @@ theme_color: '#efeeff'
 twitter_username: sandochee
 github_username:  sandoche
 author: Sandoche Adittane
-logo: assets/images/large-logo.png
+logo: ./assets/images/large-logo.png
 twitter:
   username: sandochee
 social:
